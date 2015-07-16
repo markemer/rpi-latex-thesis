@@ -1,6 +1,7 @@
 # Links to OGE Resources
 
-- RPI's Office of Graduate Education: http://gradoffice.rpi.edu
+- RPI's Office of Graduate Education for Current Students: http://gradoffice.rpi.edu/update.do?catcenterkey=2
+  - see right-hand sidebar for links to forms and checklists
 - RPI's Academic Calendar: http://www.rpi.edu/academics/calendar
   - includes thesis/dissertation due dates
   - includes deadlines for defences
