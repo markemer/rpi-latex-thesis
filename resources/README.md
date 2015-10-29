@@ -17,6 +17,6 @@ Over the years, many students have had difficulties in having their theses accep
 In an attempt to alleviate this process, several individuals have passed on their wisdom.
 The following files contain helpful tips:
 
-- ThesisFormatting.md: This file lists several reasons why a thesis was returned to a student.
-- Medha_Atre_Comments.md: This file contains Medha's comments on the thesis submission process, as emailed to the CSGrads list in September 2011.
-- Terry_Hayden_Pro_Tips.md: This file is a collection of several tips from Terry Hayden.
+- [ThesisFormatting.md](https://github.com/gonsie/rpi-latex-thesis/blob/master/resources/ThesisFormatting.md): This file lists several reasons why a thesis was returned to a student.
+- [Medha_Atre_Comments.md](https://github.com/gonsie/rpi-latex-thesis/blob/master/resources/Medha_Atre_Comments.md): This file contains Medha's comments on the thesis submission process, as emailed to the CSGrads list in September 2011.
+- [Terry_Hayden_Pro_Tips.md](https://github.com/gonsie/rpi-latex-thesis/blob/master/resources/Terry_Hayden_Pro_Tips.md): This file is a collection of several tips from Terry Hayden.
