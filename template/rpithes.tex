@@ -34,6 +34,11 @@
 \makeatother
 \usepackage{bibentry}
 \nobibliography*
+
+% If you have an attribution before your first in-text citation, 
+% you should use \nobibentry to ensure in-text citations start at [1]
+\newcommand{\ignore}[1]{}
+\newcommand{\nobibentry}[1]{{\let\nocite\ignore\bibentry{#1}}}
 % ------------------------
 
 
