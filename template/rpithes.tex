@@ -1,0 +1,56 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                                 %
+%                            ROOT FILE                            %
+%                                                                 %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%  Run LaTeX or pdfLaTeX on this file to produce your thesis.
+%  To produce the abstract title page followed by the abstract,
+%  see the file abstitle-phd.tex or abstitle-mas.tex.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[chap]{thesis}
+
+% Use the first command below if you want captions over 1 line indented. A side
+% effect of this is to remove the use of bold for captions (thesis default).
+% To restore bold, also include the second line below.
+%\usepackage[hang]{caption}      % to indent subsequent lines of captions
+%\renewcommand{\captionfont}{\bfseries} % bold caption (needed with caption
+                                       % package to restore boldface.)
+
+
+%\includeonly{rpichap1}  % use \includeonly to process only
+                         % the file(s) listed inside the braces
+
+
+% ------------------------
+% You MUST attribute any previously published work (even if it's your own writing)
+% Attribution of previously published work
+% Use the after title and before the first sentence of the chapter
+% Example: \blfootnote{This work perviously appeared as: \bibentry{mypaper2015}
+\makeatletter
+\def\blfootnote{\xdef\@thefnmark{}\@footnotetext}
+\makeatother
+\usepackage{bibentry}
+\nobibliography*
+
+% If you have an attribution before your first in-text citation, 
+% you should use \nobibentry to ensure in-text citations start at [1]
+\newcommand{\ignore}[1]{}
+\newcommand{\nobibentry}[1]{{\let\nocite\ignore\bibentry{#1}}}
+% ------------------------
+
+
+\begin{document}
+
+%\include{rpititle-mas}   % titlepage material for Master's thesis or project
+\include{rpititle-phd}   % titlepage material for PhD thesis
+\include{rpiack}  % include for acknowledgements
+\include{rpiabs} % abstract
+\include{rpichap1} % chapter 1
+\include{rpichap2} % chapter 2
+\include{rpibib} % bibliography
+\include{rpiapp} % appendix
+
+\end{document}
